@@ -1,0 +1,37 @@
+.checkbox-container {
+    margin-top: 1.5rem;
+}
+
+input {
+    width: 90%;
+    padding: 10px 10px;
+    outline: none;
+    border: 1.5px solid lightgray;
+    border-radius: var(--small-radius);
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.input-container .label {
+    margin-bottom: 3px;
+    font-weight: 500;
+}
+
+.helper-text {
+    color: gray;
+    font-size: 12px;
+}
+
+.item-form-container {
+    background-color: var(--tertiary-color);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin: 0 5rem;
+    padding: 1rem;
+    border-radius: var(--large-radius);
+}

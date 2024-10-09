@@ -1,0 +1,21 @@
+.white-icon {
+    border: 1px solid var(--white-color);
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-right: 0.5rem;
+    background-color: var(--white-color);
+    border-radius: var(--round-radius);
+  }
+  
+  .header-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .app-header {
+    color: var(--white-color);
+    display: flex;
+    background-color: var(--primary-color);
+    justify-content: space-between;
+    padding: 0 10px;
+  }
